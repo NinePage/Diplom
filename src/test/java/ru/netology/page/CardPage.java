@@ -8,6 +8,7 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -17,7 +18,7 @@ public class CardPage extends TourPage {
     private final SelenideElement cardNumberField = $("[placeholder='0000 0000 0000 0000']");
     private final SelenideElement expirationMonthField = $("[placeholder='08']");
     private final SelenideElement expirationYearField = $("[placeholder='22']");
-    private final SelenideElement cardHolderNameField = fields.get(3);
+    private final SelenideElement cardHolderNameField = $(byText("Владелец")).parent().$(".input__control");
     private final SelenideElement cardSecurityCodeField = $("[placeholder='999']");
     private final SelenideElement continueButton = $(withText("Продолжить"));
 
