@@ -1,6 +1,7 @@
 # Дипломное задание профессии «Тестировщик ПО»
 ## Документация
 * [План автоматизации тестирования](https://github.com/NinePage/Diplom/blob/master/documentation/Plan.md)
+* [Отчет по итогам тестирования](https://github.com/NinePage/Diplom/blob/master/documentation/Report.md)
 # Запуск тестов
 ## MySQL:
 1. Клонировать репозиторий командой `git clone`
