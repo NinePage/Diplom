@@ -15,7 +15,7 @@ public class DataHelper {
                 cardNumberGenerator.getApprovedCardNumber(),
                 dateGenerator.shiftYear(5).getYear(),
                 dateGenerator.shiftMonth(2).getMonth(),
-                enOption.harryPotter().character(),
+                "Ivan Ivanov",
                 Integer.toString(enOption.number().numberBetween(100, 999)));
     }
 
