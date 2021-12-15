@@ -2,6 +2,7 @@
 ## Документация
 * [План автоматизации тестирования](https://github.com/NinePage/Diplom/blob/master/documentation/Plan.md)
 * [Отчет по итогам тестирования](https://github.com/NinePage/Diplom/blob/master/documentation/Report.md)
+* [Отчётные документы по итогам автоматизации](https://github.com/NinePage/Diplom/blob/master/documentation/Summary.md)
 # Запуск тестов
 ## MySQL:
 1. Клонировать репозиторий командой `git clone`
